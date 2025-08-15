@@ -10,20 +10,49 @@
     <!-- TUGAS 1: Ganti judul di bawah ini dengan nama lengkapmu -->
     <title>  MUHAMMAD EMIL FIKAR </title>
 </head>
+
 <style>
-    h1{ color: blue }
-    
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        max-width: 600px;
+        margin: 10px 0;
+        border: 1px solid #f0e6e6;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.404);
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+    th, td {
+        border: 1px solid #bbb;
+        padding: 10px 15px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #3b5998; /* ungu muda */
+        color: #222222;
+        font-weight: bold;
+    }
+
+    tr:nth-child(even) {
+        background-color: #cfcbd4;
+    }
+
+    tr:hover {
+        background-color: #e9e2f1;
+        transition: 0.3s;
+    }
 </style>
 
-
-<body>
+<body style="font-family: Arial, Helvetica, sans-serif;background-color: #b7bbc0;color: black;padding: 15px;"> 
 
     <!-- ======================================================= -->
     <!-- BAGIAN HEADER: Judul Utama dan Perkenalan Singkat       -->
     <!-- ======================================================= -->
-    <header>
+    <header style="background-color:#3b5998;padding: 15px;text-align: center;border-radius: 7px;">
         <!-- TUGAS 2: Isi dengan nama lengkapmu -->
-        <h1> Muhammad Emil Fikar </h1>
+        <h1 style="font-family: Cambria;font-size: 35px;"> Muhammad Emil Fikar </h1>
 
         <!-- TUGAS 3: Isi dengan jabatan atau tagline singkat (Contoh: Siswa, Calon Web Developer) -->
         <p> Siswa calon Progammer </p>
@@ -37,7 +66,7 @@
     <main>
 
         <!-- === Bagian Tentang Saya === -->
-        <section>
+        <section style="background-color: #e4e3e3;border: 1px solid rgb(70, 69, 69);text-align: center;padding: 15px;border-radius: 10px;box-shadow: 0 9px 6px rgba(0, 0, 0, 0.240);">
             <h2>Tentang saya</h2>
 
             <!-- TUGAS 4:
@@ -45,7 +74,7 @@
                 2. Ganti 'nama-file-gambar.jpg' dengan nama file fotomu yang sebenarnya.
                 3. Ganti teks 'alt' dengan deskripsi fotomu.
             -->
-            <img src="foto emil.png" alt="foto kelas 10" width="200">
+            <img src="foto emil.png" alt="foto kelas 10" style="object-fit: cover width 150 height 150;border-radius: 10px;">
 
             <!-- TUGAS 5: Tulis satu atau dua paragraf singkat tentang dirimu, minat, atau cita-citamu di sini. -->
             <p>
@@ -57,7 +86,7 @@
 
         <!-- === Bagian Skill / Keahlian === -->
         <!-- Menggunakan <ol> (Ordered List) karena kita ingin menampilkannya sebagai daftar bernomor (menunjukkan urutan/prioritas) -->
-        <section>
+        <section style="background-color: rgb(215, 199, 243); border: 1px solid white;border-radius: 10px;padding: 15px;box-shadow: 0 9px 6px rgba(0, 0, 0, 0.240);">
             <h2>Skill Unggulan</h2>
             <ol>
                 <!-- TUGAS 6: Isi 3 skill atau lebih yang kamu miliki -->
@@ -70,7 +99,7 @@
         <hr>
         <!-- === Bagian Riwayat Pendidikan === -->
         <!-- Menggunakan <table> untuk menampilkan data yang terstruktur rapi -->
-        <section>
+        <section style="background-color: rgb(215, 199, 243);border: 1px solid white; border-radius: 10px;padding: 15px;box-shadow: 0 9px 6px rgba(0, 0, 0, 0.240);">
             <h2>Riwayat Pendidikan</h2>
             <table>
                 <!-- Baris untuk Judul Kolom -->
@@ -88,7 +117,7 @@
                     <td>HSI Boarding School</td>
                     
                     
-                    <td> 2024</td>
+                    <td> 2024 - 2026 </td>
                 </tr>
 
                 <!-- Baris untuk data SMP -->
@@ -108,15 +137,15 @@
     <!-- ======================================================= -->
     <!-- BAGIAN FOOTER: Link Kontak dan Copyright                -->
     <!-- ======================================================= -->
-    <footer>
+    <footer style="background-color: rgb(215, 199, 243);border-radius: 10px;text-align: center;padding: 10px;">
         <h2>Hubungi Saya</h2>
 
         <!-- Menggunakan <ul> (Unordered List) karena urutan sosial media tidak penting -->
-        <ul>
+        <ul style="list-style: none;text-align: center;">
             <!-- TUGAS 8: Ganti '#' dengan link sosial media dan 'Nama Sosmed' dengan namanya (misal: GitHub, Instagram) -->
-            <li><a href="https://www.instagram.com/millfkr_/">Millfkr</a></li>
-            <li><a href="https://www.youtube.com/@MuhammadFikar-1703">Muhammad Emil</a></li>
-            <li><a href="https://www.youtube.com/@MuhammadFikar-1703"> Emil Fikar</a></li>
+           <li> <a  href="https://www.instagram.com/millfkr_/" style="text-decoration: none;color:blue">Instagram</a></li>
+           <li> <a href="https://www.youtube.com/@MuhammadFikar-1703" style="text-decoration: none;color:red">Youtube</a></li>
+            <li> <a href="https://github.com/emil170309hsi-art" style="text-decoration: none;color:rgb(255, 208, 0)"> Github</a></li>
         </ul>
 
         <!-- TUGAS 9: Ganti [Nama Kamu] dengan namamu -->
